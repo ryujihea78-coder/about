@@ -13,12 +13,12 @@ section p {
 /* 카드에서 테두리를 빼고 그림자로 띄웁니다 */
 .card {
   border: 0;
-  box-shadow: 0 2px 12px rgba(13, 33, 55, 0.07);
+  box-shadow: 0 2px 12px rgba(10, 38, 65, 0.07);
 }
 
 /* 소개 영역에만 옅은 배경 */
 #intro {
-  background-color: #f7f9fb;
+  background-color: #a59ea0;
   border-radius: 12px;
   padding: 2rem 1.5rem;
 }
@@ -26,6 +26,6 @@ section p {
 /* 키보드로 이동할 때 지금 어디인지 보이게 — Day6 마무리에서 넣었던 규칙 */
 a:focus-visible,
 button:focus-visible {
-  outline: 2px solid #0b6fb8;
+  outline: 2px solid hsl(328, 20%, 24%);
   outline-offset: 2px;
 }
